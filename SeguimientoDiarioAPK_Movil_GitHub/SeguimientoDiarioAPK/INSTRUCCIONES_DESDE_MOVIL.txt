@@ -1,0 +1,19 @@
+CREAR APK DESDE EL MOVIL - SIN PC
+
+1. Entra a https://github.com desde Chrome en tu móvil.
+2. Crea una cuenta o inicia sesión.
+3. Pulsa + > New repository.
+4. Nombre recomendado: seguimiento-diario-wilmer
+5. Selecciona Public o Private y pulsa Create repository.
+6. Sube todos los archivos y carpetas de este proyecto al repositorio.
+   IMPORTANTE: también debes subir la carpeta .github/workflows/build-apk.yml
+7. En GitHub abre la pestaña Actions.
+8. Entra en Build APK.
+9. Pulsa Run workflow.
+10. Espera que termine en verde.
+11. Abre el resultado y descarga el artefacto llamado SeguimientoDiario-APK.
+12. Descomprime el archivo descargado y tendrás app-debug.apk.
+13. En Android, abre el APK y permite instalación de apps desconocidas si te lo pide.
+
+Nota: este APK será de prueba/debug. Sirve para instalarlo en tu móvil.
+Para Play Store hace falta firmar una versión release.
