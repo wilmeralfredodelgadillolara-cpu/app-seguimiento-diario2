@@ -7,7 +7,6 @@ jobs:
 build:
 runs-on: ubuntu-latest
 
-```
 steps:
   - name: Checkout código
     uses: actions/checkout@v3
